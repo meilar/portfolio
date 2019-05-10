@@ -5,7 +5,7 @@ body {
   background-color: yellow;
   border-radius: 60px;
 }
-.card {
+#fact-cards .card {
   background-color: yellow;
   border-radius: 60px;
   padding: 20px;
@@ -53,7 +53,7 @@ h1.hedd {
     border-radius: 0px;
   }
 }
-.btn-small {
+.btn {
   float: right;
   /* color: yellow; */
 }
