@@ -2,62 +2,79 @@
 <html lang="en" dir="ltr">
   <head>
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Homemade+Apple|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/css.css">
     <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
     <meta charset="utf-8">
     <title>This is Matt</title>
   </head>
 <body>
-    </html>
-    <div class="banner">
-      <h1><u>This</u> is Matt</h1>
+   <div class="container-fluid">
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="hedd"><em>This</em> is Matt</h1>
     </div>
-    <div class="wrapper">
-        <div class="card-places">
-        <h2>Places I've Lived</h2>
-        <ol id="place-list">
-          <li>Agoura, CA</li>
-          <li>Santa Paula, CA</li>
-          <li>Ojai, CA</li>
-          <li>Portland, OR</li>
-        </ol>
-      </div>
-      <div class="card-bio">
-          <h2>Here's the most important thing you need to know: I am <em><u>very</u></em> cool.</h2>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="bio">
+        <h2 id="bio-header">Here's the most important thing you need to know: I am <em><u>very</u></em> cool.</h2>
           <img src=https://i.imgur.com/fBTd91j.jpg alt="My beautiful face" height="200" width="200">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus ipsum, faucibus at aliquam non, convallis vel ex. Sed tristique sem arcu, cursus suscipit massa finibus eu. Nunc malesuada volutpat dui, nec bibendum augue mollis sed. Cras non ipsum massa. Phasellus vestibulum dolor justo, vitae tristique lacus pharetra sollicitudin. Suspendisse justo neque, interdum a arcu at, ullamcorper bibendum mi. Etiam sed fermentum sem, eget rhoncus lorem. Aliquam ac rhoncus est. Mauris nec viverra nulla. Nam blandit sapien varius massa lacinia, ut lacinia ex tincidunt. Nulla sagittis in lorem a ultrices. Aenean lacinia feugiat ultricies. Pellentesque eu elementum est, nec elementum velit.
       </div>
-      <div class="card-instr">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card">
         <h2>Instruments I play</h2>
-          <ul id="instrument-list">
+        <div class="list">
+          <ul>
             <li>Piano</li>
-            <li>Harmonica</li>
             <li>Accordion</li>
-            <li>Bass</li>
-            <li><em>I can sing too!</em></li>
+            <li>Harmonica</li>
+            <li>Mandolin</li>
+            <li>Organ</li>
+          </ul>
+        </div>
+        <p id="sing"><em>...And I sing too!</em></p>
       </div>
-      <div class="card-goof">
-        <h2> Vital information</h2>
-        <h3>Email address</h3>
-        <p><a id="email" href="mailto:meilar@gmail.com"> meilar@gmail.com</a>
-        <h3>Social Security Number</h3>
-        <p id="SSN">078-05-1120</p>
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+        <h2>Places I've Lived</h2>
+        <div class="list">
+          <ol>
+            <li>Agoura Hills, CA</li>
+            <li>Santa Paula, CA</li>
+            <li>Ojai, CA</li>
+            <li>Portland, OR</li>
+        </div>
       </div>
-      <div class="card-astro">
+    </div>
+    <div class="col-md-3">
+      <div class="card">
         <h2>Star Chart</h2>
         <p><strong>Sun in Gemini:</strong><em> self-expressive, curious about everything, social chameleon.</em>
-        <p><strong>Moon in Gemini:</strong><em> pleasant and witty in public, a nightmare at home. Reads and talks a lot.</em></p>
-        <p><strong>Mercury in Gemini:</strong><em> bored easily, but a fast learner and knows a little about a lot.</em></p>
-      </div>
-      <div class="spacing"></div>
-      <div class="folio">
-        <h2>Here are some of the projects I have out in the world</h2>
-        <ul>
-          <li><a href="http://www.github.com/meilar">Github</a></li>
-          <li><a href="https://vsco.co/mtthwkrl/journal/p/1">Photos</a></li>
-          <li><a href="https://mtthwkrl.wordpress.com/">Blog</a></li>
-          <li><a href="https://www.twitter.com/mtthwkrl">Twitter</a></li>
-          <li><a href="https://www.postwarradio.com">Postwar Radio</a></li>
-        </ul>
-      </div>
+          <p><strong>Moon in Gemini:</strong><em> pleasant and witty in public, a nightmare at home. Reads and talks a lot.</em></p>
+          <p><strong>Mercury in Gemini:</strong><em> bored easily, but a fast learner and knows a little about a lot.</em></p>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card">
+      <h2>Vital Information</h2>
+      <h4>Email:</h4>
+      <br>
+      <a><a href="mailto:djtrump@whitehouse.gov" class="info">meilar@gmail.com</a>
+      <br>
+      <h4>Social Security Number</h4>
+      <a href="https://www.ssa.gov/history/ssn/misused.html" class="info">078-05-1120</a>
+      <h4>Phone Number</h4>
+      <a href="https://www.youtube.com/watch?v=6WTdTwcmxyo" class="info">555-867-5309</a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
 </body>
