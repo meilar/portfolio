@@ -7,7 +7,7 @@ body {
 }
 #fact-cards .card {
   background-color: yellow;
-  border-radius: 60px;
+  border-radius: 40px;
   padding: 20px;
   height: 100%;
 }
@@ -53,10 +53,6 @@ h1.hedd {
     border-radius: 0px;
   }
 }
-.btn {
-  float: right;
-  /* color: yellow; */
-}
 #bio-header {
     text-align: center;
     font-family: 'Homemade Apple', cursive;
@@ -70,4 +66,9 @@ h1.hedd {
 #lynx li {
   font-size: 150%;
   margin-left: 40%
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
 }
