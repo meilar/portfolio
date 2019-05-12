@@ -11,6 +11,12 @@ body {
   padding: 20px;
   height: 100%;
 }
+#inst-list li {
+  list-style: none;
+}
+#inst-list li::before {
+  content: "🎵 ";
+}
 .row {
   margin: 40px
 }
@@ -29,7 +35,7 @@ h1.hedd {
   text-align: center;
 }
 .list {
-  padding-left: 20%
+  padding-left: 10%
 }
 .info {
   font-family: monospace;
