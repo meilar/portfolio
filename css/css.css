@@ -44,6 +44,8 @@ h1.hedd {
 }
 .bio {
   color: yellow;
+  font-size: 130%;
+  font-weight:lighter;
 }
 .bio img {
   float: left;
@@ -77,4 +79,11 @@ h1.hedd {
     width: 100%;
     height: 15vw;
     object-fit: cover;
+}
+.greeting {
+  font-size: 120%;
+  color: white;
+  font-weight: lighter;
+  font-family: 'Homemade Apple', cursive;
+  padding-right: 10px;
 }
