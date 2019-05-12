@@ -52,15 +52,6 @@ h1.hedd {
   margin-right: 30px;
   border-radius: 60px;
 }
-@media only screen and (max-width: 720px) {
-  .row {
-    margin-top: 20px;
-  }
-  .card {
-    margin: 40px;
-    border-radius: 0px;
-  }
-}
 #bio-header {
     text-align: center;
     font-family: 'Homemade Apple', cursive;
@@ -86,4 +77,12 @@ h1.hedd {
   font-weight: lighter;
   font-family: 'Homemade Apple', cursive;
   padding-right: 10px;
+}
+@media only screen and (max-width: 720px) {
+  .row {
+    margin-top: 50px;
+  }
+  #proj-head {
+    padding-top: 40px;
+  }
 }
